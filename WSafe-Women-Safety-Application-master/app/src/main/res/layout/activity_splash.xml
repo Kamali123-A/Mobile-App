@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity">
+
+
+    <View
+        android:id="@+id/topleftoval"
+        android:layout_width="158dp"
+        android:layout_height="145dp"
+        android:layout_marginStart="-20dp"
+        android:layout_marginTop="-30dp"
+        android:background="@drawable/top_left_corner_oval" />
+
+    <TextView
+        android:id="@+id/sparkText"
+        android:layout_width="255dp"
+        android:layout_height="89dp"
+        android:layout_above="@id/sparkImg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="cursive"
+        android:text="  W~Safe "
+        android:textColor="#803A99"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/sparkImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:paddingStart="30dp"
+        android:src="@drawable/girl" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/slang"
+        android:textSize="28sp"
+        android:layout_below="@id/sparkImg"
+        android:text="Living Without Fear"
+        android:textColor="#803A99"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="cursive"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_above="@id/sparkImg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="-316dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="-316dp"
+        android:layout_marginBottom="-392dp"
+        android:fontFamily="cursive"
+        android:text=" #My Companion"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnGetStarted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/slang"
+        android:layout_alignStart="@+id/sparkImg"
+        android:layout_alignEnd="@+id/sparkImg"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="49dp"
+        android:layout_marginBottom="15dp"
+        android:text="get started" />
+
+
+</RelativeLayout>
